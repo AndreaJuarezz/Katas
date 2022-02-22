@@ -18,7 +18,7 @@ Crea un entorno virtual mediante ``venv``
     ``
     Ahora tienes un directorio (folder) ``env`` creado en tu terminal.
     
-
+    ![image](https://user-images.githubusercontent.com/99098014/155043541-40f614bf-c0f3-4e1f-bcfa-d0c878286d78.png)
 
 * Ejecuta el comando para activar el entorno virtual: ``source env/bin/activate``
 
@@ -36,7 +36,8 @@ Crea un entorno virtual mediante ``venv``
 
 Ahora ves en tu terminal ``(env)``. Eso significa que has activado tu entorno virtual y se ha aislado del resto de tu máquina.
 
-![image](https://user-images.githubusercontent.com/9124597/153076991-25e857c5-a910-4d54-80b9-47fce1b62147.png)
+![image](https://user-images.githubusercontent.com/99098014/155043296-09062f9b-e01a-49ba-ae96-0e416c121a09.png)
+
 
 ## Instalar una biblioteca
 
@@ -49,11 +50,16 @@ Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y 
     ```
 
     No deberías obtener respuesta. A continuación, veamos cómo cambia la salida de ``pip freeze`` cuando se agrega una biblioteca (un paquete).
+    
+    ![image](https://user-images.githubusercontent.com/99098014/155043344-bb662a07-1b7f-4c5b-91ab-ea0e5d7caccb.png)
+
 
 * Ejecuta el comando ``pip install`` para instalar una biblioteca:
    ```
    pip install python-dateutil
    ```
+   ![image](https://user-images.githubusercontent.com/99098014/155043365-d0c70aba-53f5-4f24-a787-eb1b9db3ea58.png)
+
 * Un gran mensaje de salida de texto dice que está instalando tu biblioteca, y debe terminar con la siguiente oración:
 
     ```
@@ -63,6 +69,8 @@ Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y 
     ```
     pip freeze
     ```
+    ![image](https://user-images.githubusercontent.com/99098014/155043439-9875a416-c05b-4caf-9184-ce13b9319c36.png)
+
 * Ahora deberías ver la siguiente lista:
     ```
     python-dateutil==2.8.2
@@ -77,10 +85,13 @@ Ejecuta el comando ``deactivate``:
 ```
 deactivate
 ```
+![image](https://user-images.githubusercontent.com/99098014/155043481-90136dac-2f77-4101-8108-a19fe85d94e0.png)
 
 Observa cómo cambia el mensaje de tu terminal ``(env)`` a cómo se veía antes.
 
 ¡Felicidades! Has logrado crear y usar correctamente un entorno virtual.
+
+![image](https://user-images.githubusercontent.com/99098014/155043506-62626fdd-e0a5-45cd-89a6-dac3a33f52ba.png)
 
 
 Curso Propedútico de Python para Launch X - Innovacción Virtual.
